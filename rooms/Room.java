@@ -8,5 +8,5 @@ import java.util.ArrayList;
 
 public static class Room
 {
-  final String text="You are in a generic room";
+  public final String text="You are in a generic room";
 }
