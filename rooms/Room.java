@@ -4,9 +4,19 @@
  * Rooms.java
  * @authors CJ Duffee, Jeffrey Wang
 */
-import java.util.ArrayList;
 
-public static class Room
-{
-  public final String text="You are in a generic room";
+public abstract class Room {
+  // instance variables
+  private int x, y;
+  
+  public Room ( int x, int y ) {
+    this.x = x;
+    this.y = y;
+  }
+  
+  // mutators
+  
+  // accessors
+  
+  
 }
