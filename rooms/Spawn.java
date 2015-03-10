@@ -6,5 +6,5 @@
 */
 
 public static class Spawn extends Room {
-  
+  visitedText="You wake up inside a white house.";
 }
