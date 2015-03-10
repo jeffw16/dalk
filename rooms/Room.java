@@ -7,7 +7,7 @@
 
 public abstract class Room {
   public String unvisitedText = "You are in a generic room.";
-  public boolean visted = false;
+  public boolean visited = false;
   public String visitedText = "You are in a generic room";
   
   public void run();
