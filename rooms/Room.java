@@ -4,8 +4,9 @@
  * Rooms.java
  * @authors CJ Duffee, Jeffrey Wang
 */
+import java.util.ArrayList;
 
-public abstract class Room
+public static class Room
 {
-  
+  final String text="You are in a generic room";
 }
