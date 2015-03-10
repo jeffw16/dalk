@@ -1,7 +1,7 @@
 public abstract class LootRoom extends Room
 {
-  boolean looted = false;
-  ArrayList<Items.Item> loot;
+  public boolean looted = false;
+  public ArrayList<Items.Item> loot;
   
   public void addItems();
 }
