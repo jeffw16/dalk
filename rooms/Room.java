@@ -6,16 +6,6 @@
 */
 
 public abstract class Room {
-  // instance variables
-  private String name;
-  
-  public Room ( String name ) {
-    this.name = name;
-  }
-  
-  // mutators
-  
-  // accessors
-  
-  
+  public String text="You are in a generic room";
+  public boolean visted=false;
 }
