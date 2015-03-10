@@ -5,8 +5,13 @@
  * @authors CJ Duffee, Jeffrey Wang
 */
 
-public static class Room {
-  final String text= "You are in a generic room";
+public abstract class Room {
+  // instance variables
+  private String name;
+  
+  public Room ( String name ) {
+    this.name = name;
+  }
   
   // mutators
   
