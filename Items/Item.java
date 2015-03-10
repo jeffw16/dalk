@@ -1,6 +1,8 @@
 public abstract class Item
 {
-  public String name = "Generic item";
-  public int value = 0;
-  public String description = "It's an item.";
+  public final String name = "Generic item";
+  public final int value = 0;
+  public final String description = "It's an item.";
+  
+  public double integrity = 100.0;
 }
