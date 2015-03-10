@@ -8,4 +8,6 @@
 public abstract class Room {
   public String text="You are in a generic room";
   public boolean visted=false;
+  
+  public void run();
 }
