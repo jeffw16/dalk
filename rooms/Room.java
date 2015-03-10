@@ -5,14 +5,8 @@
  * @authors CJ Duffee, Jeffrey Wang
 */
 
-public abstract class Room {
-  // instance variables
-  private int x, y;
-  
-  public Room ( int x, int y ) {
-    this.x = x;
-    this.y = y;
-  }
+public static class Room {
+  final String text= "You are in a generic room";
   
   // mutators
   
