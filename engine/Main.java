@@ -5,7 +5,7 @@
  * @authors CJ Duffee, Jeffrey Wang
 */
 
-public class Engine
+public class Main
 {
   public static void main(String args[])
   {
