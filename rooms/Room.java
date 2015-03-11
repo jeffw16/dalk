@@ -12,17 +12,14 @@ public abstract class Room {
   
   public void run()
   {
-    if(!visited)
-    {
+    if( !visited ) {
       visited = true;
-      System.out.println(unvisitedText);
+      System.out.println( unvisitedText );
+    } else {
+      System.out.println( visitedText );
     }
-    else
-    {
-      System.out.println(visitedText);
-    }
+    // This code should probably move to a generic call to the engine.
     System.out.println("What do you want to do?");
     System.out.println("1. Open Inventory");
-    
   }
 }
