@@ -9,7 +9,8 @@ public abstract class Room {
   public final String unvisitedText = "You are in a generic room.";
   public boolean visited = false;
   public final String visitedText = "You are in a visited generic room";
-  public final ArrayList<Dirrection> directions; 
+  public direction[] directions = new directions[2];
+  directions = {new direction("Go North to Generic Room", IDKFORIDSYSTEM), new direction("GO SOUTH TO GENERIC ROOM",IDKFORIDSYSTEM)}
   
   public void run()
   {
