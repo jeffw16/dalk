@@ -1,7 +1,11 @@
+import java.util.ArrayList;
+
 public class Player
 {
   public static double maxHealth=100;
   public static double health= 100; //not sure if should be int or double
+  
+  public ArrayList<item.Item> inventory = new ArrayList();
   
   public void changeHp(double amount)
   {
