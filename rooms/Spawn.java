@@ -5,6 +5,6 @@
  * @authors CJ Duffee, Jeffrey Wang
 */
 
-public static class Spawn extends Room {
+public class Spawn extends Room {
   visitedText="You wake up inside a white house.";
 }
