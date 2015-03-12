@@ -2,9 +2,13 @@ public class Engine
 {
   public void run()
   {
+    String s="Spawn";
     while(true)
     {
-      rooms.Spawn.run();
+      switch(s)
+      {
+        
+      }
     }
   }
 }
