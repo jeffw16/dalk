@@ -2,10 +2,9 @@ public class Engine
 {
   public void run()
   {
-    String s="Spawn";
     while(true)
     {
-      switch(s)
+      switch(Player.room)
       {
         case "Spawn":
         rooms.Spawn.run();
