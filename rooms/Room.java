@@ -12,7 +12,7 @@ public abstract class Room {
   public direction[] directions = new direction[2];
   directions = {new direction("Go North to Generic Room", IDKFORIDSYSTEM), new direction("GO SOUTH TO GENERIC ROOM",IDKFORIDSYSTEM)}
   
-  public void run()
+  public String run()
   {
     if( !visited ) {
       visited = true;
@@ -20,7 +20,7 @@ public abstract class Room {
     } else {
       System.out.println( visitedText );
     }
-    // This code should probably move to a generic call to the engine.
+    // This code should probably move to a generic call to the engine. AGREED.
     System.out.println("What do you want to do?");
     System.out.println("1. Open Inventory");
     
