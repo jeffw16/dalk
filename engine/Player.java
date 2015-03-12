@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Player
 {
-  public String room = "Spawn";
+  public static String room = "Spawn";
   public static double maxHealth=100;
   public static double health= 100; //not sure if should be int or double
   
