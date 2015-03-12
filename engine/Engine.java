@@ -7,7 +7,11 @@ public class Engine
     {
       switch(s)
       {
+        case "Spawn":
+        rooms.Spawn.run();
+        break;
         
+        //ETC
       }
     }
   }
