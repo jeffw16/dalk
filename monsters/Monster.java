@@ -1,5 +1,5 @@
 public abstract class monster
 {
-  int hp=100;
-  String name = "Monster";
+  public int hp=100;
+  public String name = "Monster";
 }
