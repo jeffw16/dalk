@@ -14,7 +14,7 @@ public abstract class Room
   directions = {new direction("Go North to Generic Room", IDKFORIDSYSTEM), new direction("GO SOUTH TO GENERIC ROOM",IDKFORIDSYSTEM)}
   
   
-  public String run()
+  public void run()
   {
     if( !visited ) {
       visited = true;
