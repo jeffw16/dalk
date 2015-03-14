@@ -6,5 +6,6 @@
 */
 
 public class Spawn extends Room {
-  visitedText="You wake up inside a white house.";
+  unvisitedText = "You wake up inside a white house.";
+  visitedText = "Welcome back to your " + Player.spawnColor + " house. Time to explore.";
 }
