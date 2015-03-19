@@ -5,9 +5,10 @@ public abstract class LootRoom extends Room
   
   public void addItems();
   
-  public void run()
+  @Override
+  public void print()
   {
-    super.run();
+    super.print();
     for(int i=super.directions.length+2;i<loot.size();i++)
     {
       System.out.println(i+". "+loot.get(i-(super.directions.length+2));
