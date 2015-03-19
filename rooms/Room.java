@@ -44,7 +44,6 @@ public abstract class Room
     if(i==1)
     {
       //Open Inventory
-      
     }
   }
 }
