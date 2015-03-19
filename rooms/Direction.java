@@ -3,9 +3,10 @@
 public class Direction
 {
   public String text;
+  public String roomName;
   IDKFORIDSYSTEM
-  public Direction(String text, IDKFORIDSYSTEM) {
+  public Direction(String text, roomName) {
     this.text = text;
-    IDKFORIDSYSTEM
+    this.roomName=roomName;
   }
 }
