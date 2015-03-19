@@ -47,7 +47,7 @@ public abstract class Room
     }
     else if(i<= (directions.length)+1)
     {
-      Player.room=directions[i-1];
+      Player.room=directions[i-1].roomName;
     }
   }
 }
