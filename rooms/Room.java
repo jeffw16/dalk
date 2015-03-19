@@ -45,5 +45,9 @@ public abstract class Room
     {
       //Open Inventory
     }
+    else if(i<= (directions.length)+1)
+    {
+      Player.room=directions[i-1];
+    }
   }
 }
