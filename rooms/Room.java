@@ -20,9 +20,9 @@ public abstract class Room
   {
     if( !visited ) {
       visited = true;
-      System.out.println( unvisitedText );
+      System.out.println(unvisitedText);
     } else {
-      System.out.println( visitedText );
+      System.out.println (visitedText);
     }
     // This code should probably move to a generic call to the engine. AGREED. 
     System.out.println("What do you want to do?");
@@ -40,5 +40,11 @@ public abstract class Room
     Scanner scanny = new Scanner();
     int i = scanny.nextInt();
     scanny.nextLine();
+    
+    if(i==1)
+    {
+      //Open Inventory
+      
+    }
   }
 }
