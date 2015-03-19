@@ -5,6 +5,8 @@
  * @authors CJ Duffee, Jeffrey Wang
 */
 
+import java.util.Scanner;
+
 public abstract class Room 
 {
   public static String unvisitedText = "You are in a generic room.";
@@ -35,5 +37,8 @@ public abstract class Room
   public void run()
   {
     print();
+    Scanner scanny = new Scanner();
+    int i = scanny.nextInt();
+    scanny.nextLine();
   }
 }
