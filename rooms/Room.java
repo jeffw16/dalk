@@ -11,7 +11,7 @@ public abstract class Room
   public static boolean visited = false;
   public static String visitedText = "You are in a visited generic room";
   public static direction[] directions = new direction[2];
-  directions = {new direction("Go North to Generic Room", IDKFORIDSYSTEM), new direction("GO SOUTH TO GENERIC ROOM",IDKFORIDSYSTEM)}
+  directions = {new direction("Go North to Generic Room", "roomName"), new direction("GO SOUTH TO GENERIC ROOM","roomName")}
   
   
   public void run()
