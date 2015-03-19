@@ -14,7 +14,7 @@ public abstract class Room
   directions = {new direction("Go North to Generic Room", "roomName"), new direction("GO SOUTH TO GENERIC ROOM","roomName")}
   
   
-  public void run()
+  public void print()
   {
     if( !visited ) {
       visited = true;
@@ -30,5 +30,10 @@ public abstract class Room
     {
       System.out.println((i+2)+". "+directions[i].text);
     }
+  }
+  
+  public void run()
+  {
+    print();
   }
 }
