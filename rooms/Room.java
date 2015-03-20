@@ -14,7 +14,8 @@ public abstract class Room
   public static String visitedText = "You are in a visited generic room";
   public static direction[] directions = new direction[2];
   directions = {new direction("Go North to Generic Room", "roomName"), new direction("GO SOUTH TO GENERIC ROOM","roomName")}
-  
+  public boolean looted = false;
+  public ArrayList<Item> loot;
   
   public void print()
   {
@@ -31,6 +32,11 @@ public abstract class Room
     for(int i=0;i<directions.length2;i++)
     {
       System.out.println((i+2)+". "+directions[i].text);
+    }
+    
+    for(int i=directions.length+2;i<loot.size();i++)
+    {
+      System.out.println(i+". "+loot.get(i-(super.directions.length+2));
     }
   }
   
