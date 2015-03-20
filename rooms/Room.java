@@ -65,7 +65,7 @@ public abstract class Room
     }
     else if(i<(1+directions.length+loot.size())
     {
-      //add loot to player
+      Player.inventory.add(new ItemFoo());
       loot.remove(i-1-directions.length);
     }
   }
