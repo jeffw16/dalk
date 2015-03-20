@@ -59,9 +59,14 @@ public abstract class Room
     {
       //Open Inventory
     }
-    else if(i<= (directions.length)+1)
+    else if(i<(1+directions.length))
     {
       Player.room=directions[i-1].roomName;
+    }
+    else if(i<(1+directions.length+loot.size())
+    {
+      //add loot to player
+      loot.remove(i-1-directions.length);
     }
   }
 }
