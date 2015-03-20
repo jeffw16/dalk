@@ -14,8 +14,12 @@ public abstract class Room
   public static String visitedText = "You are in a visited generic room";
   public static direction[] directions = new direction[2];
   directions = {new direction("Go North to Generic Room", "roomName"), new direction("GO SOUTH TO GENERIC ROOM","roomName")}
-  public boolean looted = false;
   public ArrayList<Item> loot;
+  
+  public void addItems()
+  {  //Impletation 
+    //loot.add(new Item());
+  }
   
   public void print()
   {
@@ -42,6 +46,10 @@ public abstract class Room
   
   public void run()
   {
+    if(!visited)
+    {
+      addItems();
+    }
     print();
     Scanner scanny = new Scanner();
     int i = scanny.nextInt();
