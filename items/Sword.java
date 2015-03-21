@@ -1,3 +1,3 @@
-class Sword extends Equiptment
+class Sword extends Equipment
 {
 }
