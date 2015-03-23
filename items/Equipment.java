@@ -3,7 +3,7 @@ public abstract class Equipment extends Item
   public Equipment()
   {
     name = "Equipment";
-  description = "A generic piece of equipment";
+    description = "A generic piece of equipment";
   }
   
   public int value = 0;
