@@ -6,10 +6,9 @@
 */
 
 public class Spawn extends Room {
-  public Spawn()
+  public void setup()
   {
     unvisitedText = "You wake up inside a white house.";
     visitedText = "You walk again into the white house.";
   }
-  
 }
