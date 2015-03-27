@@ -4,12 +4,10 @@ public class Engine {
     Player player = new Player();
     // if user exists, run something, else make user profile
     GetInput getinput = new GetInput();
-    String username = getinput.requestString ( "Username:" );
-    if ( !player.exists ( username ) ) {
-      player.makeProfile();
+    if ( player.getUsername() == "nousername" ) {
+      player.setUsername ( getinput.requestString ( "Username:" ) );
     }
     // start process
-    // removed function, added to Room.java
     Room room = new Room ( player.getRoom() );
   }
 }
