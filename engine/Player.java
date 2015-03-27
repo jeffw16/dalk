@@ -2,13 +2,15 @@ import java.util.ArrayList;
 
 public class Player
 {
-  public static String room = "Spawn";
+  public static String room = "spawn";
   public static double maxHealth = 100;
-  public static double health = 100; // best to be double for accuracy and future compatibility purposes (see RuneScape healthpoints)
+  public static double health = 100;
+  public String username = "nousername";
+  // ^ it is best for health to be double for accuracy and future compatibility purposes (see RuneScape healthpoints)
   
   public ArrayList<item.Item> inventory = new ArrayList();
   
-  public void changeHp(double amount) {
+  public void changeHp (double amount) {
     health += this.amount;
     if (heath > maxHealth) {
       health = maxHealth;
@@ -16,5 +18,12 @@ public class Player
       health = 0;
       System.out.println("\nYou died!\n");
     }
+  }
+  
+  public void setUsername ( String username ) {
+    this.username = username;
+  }
+  public String getUsername () {
+    return username;
   }
 }
