@@ -18,8 +18,9 @@ public abstract class Room
   
   public void init()
   { 
-  unvisitedText = "You find a new cave";
+  unvisitedText = "You find yourself in a cave";
   visitedText = "You find yourself in a previous room";
+  directions = {new direction,("Go right into the tunnel", "Dungeon" );
   }
   
   public void print()
