@@ -5,7 +5,7 @@ public class Player
   public static String room = "spawn";
   public static double maxHealth = 100;
   public static double health = 100;
-  public String username = "nousername";
+  public static String username = "nousername";
   // ^ it is best for health to be double for accuracy and future compatibility purposes (see RuneScape healthpoints)
   
   public ArrayList<item.Item> inventory = new ArrayList();
@@ -20,8 +20,8 @@ public class Player
     }
   }
   
-  public void setUsername ( String username ) {
-    this.username = username;
+  public void setUsername ( String inputUsername ) {
+    username = inputUsername;
   }
   public String getUsername () {
     return username;
