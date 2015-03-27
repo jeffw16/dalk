@@ -13,5 +13,7 @@ public class Main {
     // if user exists, run something, else make user profile
     // start process
     // call to Engine.java to launch it
+    Engine instance = new Engine();
+    instance.run();
   }
 }
