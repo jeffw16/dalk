@@ -1,7 +1,15 @@
 public class Engine {
   public void run() {
-    // this room position really needs to be switched to the Room.java file. Engine.java should
-    // call engine/Room.java's "select room" function
+    // call user
+    User user = new User();
+    // if user exists, run something, else make user profile
+    GetInput getinput = new GetInput();
+    String username = getinput.request( "string", "Username:" );
+    if ( !user.exists ( username ) ) {
+      user.makeProfile();
+    }
+    // start process
     // removed function, added to Room.java
+    Room room = new Room ( user.getRoom() );
   }
 }
