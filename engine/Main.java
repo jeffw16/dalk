@@ -1,8 +1,8 @@
 /**
  * MyWikis
  * Dalk
- * DalkEngine
- * @authors CJ Duffee, Jeffrey Wang
+ * This is where the magic begins :)
+ * @author CJ Duffee, Sammy Shin, Jeffrey Wang
 */
 
 public class Main {
