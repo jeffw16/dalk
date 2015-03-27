@@ -4,7 +4,7 @@ public class Engine {
     User user = new User();
     // if user exists, run something, else make user profile
     GetInput getinput = new GetInput();
-    String username = getinput.request( "string", "Username:" );
+    String username = getinput.requestString ( "Username:" );
     if ( !user.exists ( username ) ) {
       user.makeProfile();
     }
