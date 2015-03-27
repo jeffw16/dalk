@@ -16,9 +16,10 @@ public abstract class Room
   directions = {new direction("Go North to Generic Room", "roomName"), new direction("GO SOUTH TO GENERIC ROOM","roomName")}
   public ArrayList<Item> loot;
   
-  public void addItems()
-  {  //Impletation 
-    //loot.add(new Item());
+  public void init()
+  { 
+  unvisitedText = "You find a new cave";
+  visitedText = "You find yourself in a previous room";
   }
   
   public void print()
